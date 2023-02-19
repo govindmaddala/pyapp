@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(6, 72, 157);
+}
+
+#heading{
+  text-align: center;
+  margin-top: 100px;
+  color: white !important;
+}
+
+label{
+  color: white !important;
+
+}
+#formData {
+  margin: 100px;
+  width: calc(100vw - 200px);
+  height: calc(100vh - 400px);
+}
+
+#batch,#market,#names,#productName,#specificationID {
+  width: 50vw;
+  position: relative;
+  top: -20px;
+  margin: auto;
+}
+
+#submitButton{
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-size: large;
+  cursor: pointer;
+  position: relative;
+  left: 450px;
+  margin-right: 20px;
+  /* top: 50px; */
+}
+
+#resetButton{
+  width: 250px;
+  height: 60px;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  font-size: large;
+  cursor: pointer;
+  position: relative;
+  left: 850px;
+  top: -155px;
+  margin-right: 20px;
+}
